@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="estil.css">
+  </head>
+  <body>
+    <h1>Calculo de fertilizante</h1>
+    <script src="script_html.js"></script>
+    <script src="script.js"></script>
+    <!--
+    <div class="container">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" />
+      <hr />
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" />
+      <hr />
+      <button onclick="saludar(nombre.value, apellido.value)">
+        Mostrar saludo
+      </button>
+      <hr />
+      <label for="saludo1">Saludo1:</label>
+      <p id="saludo1"></p>
+      <p></p>
+      <hr />
+      <label for="saludo2">Saludo2: </label>
+      <input type="text" id="saludo2" />
+    </div>
+-->
+  
+    <label for="numero1">Ingrese la altura del terreno</label>
+    <input type="number" id="numero1" autofocus placeholder="Ingrese la altura del terreno" />
+    <hr />
+    <label for="numero2">Ingrese la base del terreno</label>
+    <input type="number" id="numero2" placeholder="Ingrese la base del terreno"/>
+    <hr />
+    <tr>
+      <td><button onclick="_sumar(numero1.value, numero2.value)">Sumar</button></td>
+      <td><button onclick="_restar(numero1.value, numero2.value)">Restar</button></td>
+      <td><button onclick="_multiplicar(numero1.value, numero2.value)">Multiplicar</button></td>
+      <td><button onclick="_dividir(numero1.value, numero2.value)">Dividir</button></td>
+    </tr>
+    <hr />
+    <label for="resultado">Su resultado es:</label>
+    <input type="number" id="resultado" />
+
+  </body>
+  <table class="Calculadora"></table>
+</html>
